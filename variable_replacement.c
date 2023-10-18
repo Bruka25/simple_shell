@@ -31,7 +31,7 @@ void replace_vars(char **line, int *exe_ret)
                         }
                         else if (old_line[j + 1])
                         {
-                                /* extract the variable name to search for */
+                                
                                 for (k = j + 1; old_line[k] &&
                                                 old_line[k] != '$' &&
                                                 old_line[k] != ' '; k++)
