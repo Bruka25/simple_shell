@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
         {
                 ret = run_file_cmds(argv[1], exe_ret);
                environ_free();
-                free_alias_list(aliases);
+                free_list_alias(aliases);
                 return (*exe_ret);
         }
 
@@ -124,7 +124,7 @@ int execute(char **args, char **start)
                                 ret = (error_print(args, 126));
                        environ_free();
                        _args_tofree(args, start);
-                        free_alias_list(aliases);
+                        free_list_alias(aliases);
                         _exit(ret);
                 }
                 else
