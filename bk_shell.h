@@ -21,34 +21,21 @@ char *name;
 /* Global history counter */
 int hist;
 
-/**
- * struct list_s - A new struct type defining a linked list.
- * @dir: A directory path.
- * @next: A pointer to another struct list_s.
- */
+
 typedef struct list_s
 {
 	char *dir;
 	struct list_s *next;
 } list_t;
 
-/**
- * struct builtin_s - A new struct type defining builtin commands.
- * @name: The name of the builtin command.
- * @f: A function pointer to the builtin command's function.
- */
+
 typedef struct builtin_s
 {
 	char *name;
 	int (*f)(char **argv, char **front);
 } builtin_t;
 
-/**
- * struct alias_s - A new struct defining aliases.
- * @name: The name of the alias.
- * @value: The value of the alias.
- * @next: A pointer to another struct alias_s.
- */
+
 typedef struct alias_s
 {
 	char *name;
@@ -56,7 +43,7 @@ typedef struct alias_s
 	struct alias_s *next;
 } alias_t;
 
-/* Global aliases linked list */
+
 alias_t *aliases;
 
 alias_t *alias_addend(alias_t **head, char *name, char *value);
@@ -96,6 +83,7 @@ list_t *parse_dir(char *path);
 ssize_t find_new_len(char *line);
 void line_handler(char **line, ssize_t read);
 int argument_handle(int *exe_ret);
+/*after*/
 void help(void);
 void bk_help_exit(void);
 void bk_help_cd(void);
@@ -126,7 +114,7 @@ int argument_handle(int *exe_ret);
 void bk_help_alias(void);
 
 
-
+/*string functions*/
 char *_strchr(char *s, char c);
 int _strspn(char *s, char *accept);
 int _strcmp(char *s1, char *s2);
