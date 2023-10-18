@@ -72,7 +72,7 @@ int main(int argc, char *argv[])
  */
 void handle_signal(int sig)
 {
-        char *new_prompt = "\n$ ";
+        char *new_prompt = "\nbrukas$ ";
 
         (void)sig;
         signal(SIGINT, handle_signal);
