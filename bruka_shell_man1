@@ -1,0 +1,72 @@
+Simple Shell(1) - A Minimalistic Unix Command Line Emulator
+
+## NAME
+
+simple_shell - A minimalistic Unix command line emulator.
+
+## SYNOPSIS
+
+**simple_shell** [options] [command [arguments]]
+
+## DESCRIPTION
+
+**Simple Shell** is a basic Unix-like command line interpreter designed for educational purposes. It provides a simplified interface for executing Unix commands and basic shell functionalities. This project aims to give software engineering students a clear understanding of how a shell works by implementing a simplified version.
+
+## OPTIONS
+
+- **-h, --help**  
+  Display a help message with usage information and a list of available options.
+
+## COMMANDS
+
+Simple Shell supports a variety of Unix-like commands, including but not limited to:
+
+- **cd [directory]**  
+  Change the current working directory to the specified directory.
+
+- **exit [status]**  
+  Terminate the shell with an optional status code. If not specified, the exit status is set to 0.
+
+- **[command] [arguments]**  
+  Execute a Unix command with the provided arguments.
+
+## INTERACTIVE MODE
+
+When launched without any arguments, Simple Shell operates in interactive mode. It presents a command prompt, where users can enter and execute commands.
+
+## EXIT STATUS
+
+- **0**  
+  Successful command execution.
+
+- **1**  
+  Command execution failed or encountered an error.
+
+
+## REPORTING BUGS
+
+Please report any bugs or issues to bkteshome862@gmail.com.
+
+## SEE ALSO
+
+For more information on Unix shells and commands, refer to the respective man pages of the Unix system, such as **bash(1)**, **sh(1)**, and others.
+
+## COPYRIGHT
+
+This is free and open-source software; you are welcome to redistribute it under certain conditions. See the GNU General Public License for details.
+
+## DISCLAIMER
+
+This is a simplified shell designed for educational purposes and may not provide all the features and reliability of a full-fledged Unix shell.
+
+## VERSION
+
+**Simple Shell** version 1.0
+
+## DATE
+
+This manual page was last updated on Thursday, October 19, 2023.
+
+## BUGS
+
+No known bugs at the time of this release.

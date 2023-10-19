@@ -2,7 +2,7 @@
 
 /**
  *bk_setenv - Changes or adds an environmental variable to the PATH
- * 
+ *
  *@args: An array of arguments passed to the shell
  *@front: A pointer to pointer to the start of args
  *
@@ -41,7 +41,7 @@ int bk_setenv(char **args, char __attribute__((__unused__)) **front)
 		free(new_value);
 		return (error_print(args, -1));
 	}
-	
+
 	for (idx = 0; environ[idx]; idx++)
 		new_environ[idx] = environ[idx];
 

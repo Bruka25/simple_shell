@@ -1,0 +1,39 @@
+AUTHORS(1) - Simple Shell Project Authors
+
+## NAME
+
+authors - List of authors for the Simple Shell project
+
+## DESCRIPTION
+
+The Simple Shell project was developed by a team of two dedicated software engineering students, [Your Name] and [Partner's Name]. This page provides information about the authors and their contributions to the project.
+
+## AUTHORS
+
+- **[Biruk Assefa]**
+  [bkteshome862@gmail.com]
+  - Role: Co-creator and lead developer
+  - Responsibilities: Project design, coding, documentation, and project management.
+  - GitHub Profile: https://github.com/Bruka25
+
+- **[Natnael Mekonnen]**
+  [natnael.mk2@gmail.com]
+  - Role: Co-creator and developer
+  - Responsibilities: Coding, debugging, and testing.
+  - GitHub Profile: https://github.com/nati2331
+
+## ACKNOWLEDGEMENTS
+
+We would like to express our gratitude to our mentors, and the open-source community for their support and guidance during the development of the Simple Shell project.
+
+## COPYRIGHT
+
+This is free and open-source software; you are welcome to redistribute it under certain conditions. See the GNU General Public License for details.
+
+## VERSION
+
+Authors Page version 1.0
+
+## DATE
+
+This authors page was last updated on Thursday, October 19, 2023.
