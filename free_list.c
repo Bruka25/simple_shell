@@ -1,7 +1,7 @@
 #include "bk_shell.h"
 
 /**
- *list_free - Frees list_type linked list
+ *free_list - Frees list_type linked list
  *
  *@head: Head of the list_type list
  *
@@ -9,13 +9,13 @@
  */
 void free_list(list_t *head)
 {
-        list_t *next;
+	list_t *next;
 
-        while (head)
-        {
-                next = head->next;
-                free(head->dir);
-                free(head);
-                head = next;
-        }
+	while (head)
+	{
+		next = head->next;
+		free(head->dir);
+		free(head);
+		head = next;
+	}
 }
